@@ -1,0 +1,8 @@
+{
+  "name": "Remix AMG Group | للتوريدات العمومية والتجارة - توريدات كهربائية متكاملة",
+  "description": "شركة AMG Group للتوريدات العمومية والكهربائية والتجارة - شريكك الموثوق لتوريد الكابلات، لوحات التوزيع والتحكم، القواطع والمحولات، وأنظمة الأتمتة الصناعية بأعلى معايير الجودة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
