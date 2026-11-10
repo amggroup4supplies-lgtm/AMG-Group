@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenRfq }) => {
           <div className="lg:col-span-5 flex flex-col justify-center">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl group">
               <img
-                src="/src/assets/images/hero_electrical_substation_1794334721158.jpg"
+                src="/images/hero_electrical_substation_1794334721158.jpg"
                 alt="AMG Group Industrial Electrical Distribution Substation"
                 referrerPolicy="no-referrer"
                 className="w-full h-80 sm:h-96 lg:h-full object-cover transition-transform duration-700 group-hover:scale-105"

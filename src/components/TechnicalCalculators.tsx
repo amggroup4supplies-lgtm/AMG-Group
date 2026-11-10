@@ -64,7 +64,7 @@ export const TechnicalCalculators: React.FC<TechnicalCalculatorsProps> = ({
       specEn: `Trade Size ${recommendedConduit.tradeSize} (${recommendedConduit.metric}) - Fill ${actualFillPercent.toFixed(1)}% - NEC / Egyptian Code Compliant`,
       descriptionAr: `مسار مواسير محسوب هندسياً لعدد ${wireCount} أسلاك مقطع ${wireSize} مم² مع الجلب والكونكتورات`,
       descriptionEn: `Engineered raceway for ${wireCount}x ${wireSize}mm² wires complete with fittings`,
-      image: '/src/assets/images/category_emt_conduits_1794335432250.jpg',
+      image: '/images/category_emt_conduits_1794335432250.jpg',
       inStock: true,
       standards: ['UL 797', 'ANSI C80.3'],
       unit: 'طقم مسار / Raceway Set'
@@ -168,7 +168,7 @@ export const TechnicalCalculators: React.FC<TechnicalCalculatorsProps> = ({
       specEn: `Size ${suitableCable.size} mm² - Design Current ${calculatedCurrent.toFixed(1)}A - VD ${suitableCable.vDropPercent.toFixed(2)}%`,
       descriptionAr: `كابل محدد هندسياً لحمل قدرته ${loadKw}kW ومسار ${lengthMeters} متر`,
       descriptionEn: `Sized for ${loadKw}kW load and ${lengthMeters}m run`,
-      image: '/src/assets/images/category_switchgear_cables_1794334722785.jpg',
+      image: '/images/category_switchgear_cables_1794334722785.jpg',
       inStock: true,
       standards: ['IEC 60502-1'],
       unit: `${lengthMeters} متر / Meters`
@@ -190,7 +190,7 @@ export const TechnicalCalculators: React.FC<TechnicalCalculatorsProps> = ({
       specEn: `Rating ${trfKva} kVA - FLA ${trfFla.toFixed(1)}A - Main ACB ${recommendedAcbRating}`,
       descriptionAr: 'محول ومجموعة لوحة توزيع رئيسية محسوبة للحمل المطلوب',
       descriptionEn: 'Engineered transformer and incoming switchgear package',
-      image: '/src/assets/images/hero_electrical_substation_1794334721158.jpg',
+      image: '/images/hero_electrical_substation_1794334721158.jpg',
       inStock: true,
       standards: ['IEC 60076'],
       unit: 'طقم / Package'

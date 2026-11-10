@@ -21,8 +21,8 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-colors">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between gap-8 h-20">
+      <div className="max-w-[88rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between gap-4 h-20">
           
           {/* Zone 1: Single Brand Zone */}
           <a href="#" className="flex items-center gap-3 shrink-0 group">
@@ -43,7 +43,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </a>
 
           {/* Zone 2: Clean single-line text nav links */}
-          <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+          <nav className="hidden min-[1360px]:flex items-center gap-5 text-sm font-semibold text-slate-700">
             <a href="#products" className="hover:text-orange-600 transition-colors whitespace-nowrap shrink-0 py-1 border-b-2 border-transparent hover:border-orange-500">
               {t.nav.products}
             </a>
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               {t.nav.calculator}
             </a>
             <a href="#brands" className="hover:text-orange-600 transition-colors whitespace-nowrap shrink-0 py-1 border-b-2 border-transparent hover:border-orange-500">
-              {t.brands.title}
+              {t.nav.brands}
             </a>
             <a href="#contact" className="hover:text-orange-600 transition-colors whitespace-nowrap shrink-0 py-1 border-b-2 border-transparent hover:border-orange-500">
               {t.nav.contact}
@@ -99,7 +99,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-slate-700 hover:text-slate-950 bg-slate-100 rounded-lg"
+              className="min-[1360px]:hidden p-2 text-slate-700 hover:text-slate-950 bg-slate-100 rounded-lg"
               aria-label="Toggle Navigation Menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-slate-200 bg-white px-4 pt-4 pb-6 space-y-3">
+        <div className="min-[1360px]:hidden border-t border-slate-200 bg-white px-4 pt-4 pb-6 space-y-3">
           <nav className="flex flex-col space-y-2 text-sm font-semibold text-slate-800">
             <a
               href="#products"
@@ -139,7 +139,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => setMobileMenuOpen(false)}
               className="px-3 py-2 rounded-lg hover:bg-slate-100 transition-colors"
             >
-              {t.brands.title}
+              {t.nav.brands}
             </a>
             <a
               href="#contact"
