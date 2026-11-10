@@ -14,7 +14,7 @@ export const productsData: Product[] = [
     specEn: 'Sizes 1/2" to 4" - Hot-dip galvanized smooth interior - Standard 3.05m length',
     descriptionAr: 'مواسير فولاذية خفيفة الوزن سهلة الثني والتشكيل، مخصصة للتمديدات الكهربائية الظاهرة والمدفونة بالمباني والمستودعات.',
     descriptionEn: 'High quality electrical metallic tubing designed for commercial raceways, offering superior wire-pulling performance.',
-    image: '/src/assets/images/category_emt_conduits_1794335432250.jpg',
+    image: '/images/category_emt_conduits_1794335432250.jpg',
     inStock: true,
     standards: ['UL 797', 'ANSI C80.3', 'EOS 208'],
     unit: 'ماسورة / Pipe (3.05m)'
@@ -33,7 +33,7 @@ export const productsData: Product[] = [
     specEn: 'Hot-Dip Galvanized (HDG) with threaded ends & coupling - Sizes 1/2" to 4"',
     descriptionAr: 'مواسير حماية صلبة مخصصة للمنشآت البترولية ومصافي الغاز والمناطق المعرضة للصدمات الميكانيكية.',
     descriptionEn: 'Heavy wall threaded steel conduit engineered for maximum mechanical and explosion containment.',
-    image: '/src/assets/images/img_imc_rigid_pipes_1794335844097.jpg',
+    image: '/images/img_imc_rigid_pipes_1794335844097.jpg',
     inStock: true,
     standards: ['UL 6 (RIGID)', 'UL 1242 (IMC)', 'ANSI C80.1'],
     unit: 'ماسورة / Pipe (3.05m)'
@@ -52,7 +52,7 @@ export const productsData: Product[] = [
     specEn: 'Galvanized spiral steel core with oil & UV resistant PVC jacket, IP67 waterproof rated',
     descriptionAr: 'تغذية المحركات الكهربائية والمضخات والمعدات المعرضة للاهتزازات الدائمة في بيئات رطبة أو صناعية.',
     descriptionEn: 'Flexible liquid-tight conduit providing superior vibration dampening and moisture/oil barrier.',
-    image: '/src/assets/images/category_flexible_conduits_1794335433370.jpg',
+    image: '/images/category_flexible_conduits_1794335433370.jpg',
     inStock: true,
     standards: ['UL 360', 'IEC 61386-23', 'CE'],
     unit: 'لفة / Roll (30m / 50m)'
@@ -71,7 +71,7 @@ export const productsData: Product[] = [
     specEn: 'Depth 1-1/2" & 2-1/8", knockouts 1/2" & 3/4", flat blank & raised covers',
     descriptionAr: 'علب سحب وتوزيع متينة مجلفنة لمفاتيح وبرايز القوى ووحدات التغذية الحائطية.',
     descriptionEn: 'Durable pressed steel junction and pull boxes engineered for wall receptacles and circuit branching.',
-    image: '/src/assets/images/img_steel_junction_boxes_1794335844709.jpg',
+    image: '/images/img_steel_junction_boxes_1794335844709.jpg',
     inStock: true,
     standards: ['UL 514A', 'NEMA OS 1'],
     unit: 'قطعة / Box'
@@ -90,7 +90,7 @@ export const productsData: Product[] = [
     specEn: '1.5mm - 2.5mm thickness, 3m length, slotted / solid with spring nuts and threaded rods',
     descriptionAr: 'الهيكل الإنشائي الحامل لمسارات المواسير والكابل تري ولوحات التوزيع المعلقة.',
     descriptionEn: 'Heavy duty steel support channels for trapeze ceiling drops, multi-conduit runs, and racks.',
-    image: '/src/assets/images/img_unistrut_strut_channel_1794335845042.jpg',
+    image: '/images/img_unistrut_strut_channel_1794335845042.jpg',
     inStock: true,
     standards: ['ASTM A123', 'BS 6946'],
     unit: 'عود / Bar (3m)'
@@ -109,7 +109,7 @@ export const productsData: Product[] = [
     specEn: 'Diameter 5/8" & 3/4", length 3.0m, minimum 254 micron copper coating, UL 467',
     descriptionAr: 'قضبان صلب عالي المقاومة ملبسة كهربائياً بطبقة سميكة من النحاس لتشتيت تيارات الأعطال والصواعق إلى عمق التربة بدون تآكل.',
     descriptionEn: 'Premium molecularly bonded high tensile steel earth electrodes engineered for minimum soil contact resistance.',
-    image: '/src/assets/images/category_earthing_lightning_1794335433495.jpg',
+    image: '/images/category_earthing_lightning_1794335433495.jpg',
     inStock: true,
     standards: ['UL 467', 'BS 7430', 'IEC 62561-2'],
     unit: 'قضيب / Rod'
@@ -129,7 +129,7 @@ export const productsData: Product[] = [
     specEn: 'Cu / XLPE / STA / PVC - Sizes 16 mm² to 400 mm²',
     descriptionAr: 'كابلات جهد منخفض مسلحة مخصصة للتمديد المباشر تحت الأرض وفي البيئات الصناعية القاسية.',
     descriptionEn: 'Heavy-duty steel tape armored low voltage power cable designed for direct underground burial and harsh industrial installations.',
-    image: '/src/assets/images/category_switchgear_cables_1794334722785.jpg',
+    image: '/images/category_switchgear_cables_1794334722785.jpg',
     inStock: true,
     standards: ['IEC 60502-1', 'BS 5467', 'EOS 208'],
     unit: 'متر / Meter'
@@ -148,7 +148,7 @@ export const productsData: Product[] = [
     specEn: 'Stranded copper, 90°C PVC insulation, 100m spools in all code phase colors',
     descriptionAr: 'الأسلاك المعتمدة لتغذية دوائر الإنارة والبرايز ومسارات مواسير الـ EMT داخل المشروعات التجارية والصناعية.',
     descriptionEn: 'Standard single conductor building wires for pulling into EMT, IMC, and flexible conduits.',
-    image: '/src/assets/images/img_building_wires_thhn_1794335865583.jpg',
+    image: '/images/img_building_wires_thhn_1794335865583.jpg',
     inStock: true,
     standards: ['IEC 60227-3', 'BS 6004', 'EOS 29'],
     unit: 'لفة / Coil (100m)'
@@ -167,7 +167,7 @@ export const productsData: Product[] = [
     specEn: 'Rated current up to 6300A, Icu 50kA-150kA with digital electronic trip protection',
     descriptionAr: 'قواطع هواء متطورة للمحطات ولوحات التوزيع الرئيسية MDB مع إمكانية الربط بأنظمة إدارة الطاقة BMS و SCADA.',
     descriptionEn: 'Advanced main power distribution air circuit breaker with integrated digital metering and communication.',
-    image: '/src/assets/images/img_air_circuit_breaker_1794335846405.jpg',
+    image: '/images/img_air_circuit_breaker_1794335846405.jpg',
     inStock: true,
     standards: ['IEC 60947-2', 'CE', 'UL'],
     unit: 'قطعة / Unit'
@@ -186,7 +186,7 @@ export const productsData: Product[] = [
     specEn: 'Form 2b / 4b segregation, IP54/IP55 enclosure rating up to 5000A',
     descriptionAr: 'تصنيع وتجميع وتوريد لوحات التوزيع الرئيسية والفرعية ووحدات تحسين معامل القدرة (PFC).',
     descriptionEn: 'Custom built and certified MDB, SMDB, and automatic power factor correction capacitor banks.',
-    image: '/src/assets/images/hero_electrical_substation_1794334721158.jpg',
+    image: '/images/hero_electrical_substation_1794334721158.jpg',
     inStock: true,
     standards: ['IEC 61439-1/2', 'KEMA Certified'],
     unit: 'لوحة / Panel'
@@ -205,7 +205,7 @@ export const productsData: Product[] = [
     specEn: 'Power range 0.75kW to 500kW, 3-Phase, modular CPU, digital/analog I/O expansion',
     descriptionAr: 'إنفرترات صناعية للتحكم في سرعة وعزم المحركات الكهربائية للمضخات والسيور مع وحدات تحكم مبرمجة.',
     descriptionEn: 'Heavy duty variable speed drives and programmable logic controllers for process automation.',
-    image: '/src/assets/images/category_automation_control_1794334722700.jpg',
+    image: '/images/category_automation_control_1794334722700.jpg',
     inStock: true,
     standards: ['IEC 61800-3', 'IEC 61131-2', 'CE'],
     unit: 'طقم / System'
@@ -224,7 +224,7 @@ export const productsData: Product[] = [
     specEn: 'Thickness 1.5mm - 2.5mm, Hot Dip Galvanized / Pre-galv, complete bends and risers',
     descriptionAr: 'أنظمة إدارة وتمديد الكابلات الثقيلة المقاومة للتآكل في البيئات الساحلية والصناعية الكيماوية.',
     descriptionEn: 'Heavy duty perforated trays and cable ladder systems engineered for superior structural span.',
-    image: '/src/assets/images/img_cable_tray_perforated_ladder_1794336148227.jpg',
+    image: '/images/img_cable_tray_perforated_ladder_1794336148227.jpg',
     inStock: true,
     standards: ['BS EN 61537', 'ASTM A123'],
     unit: 'متر / Meter'
@@ -243,7 +243,7 @@ export const productsData: Product[] = [
     specEn: '100W/150W/200W, 160 lm/W high efficacy, IP66 / IK09 rating, ATEX Zone 1/2 available',
     descriptionAr: 'كشافات ليد عالية التحمل للمستودعات، الورش، حظائر الطائرات، والمصانع البتروكيماوية.',
     descriptionEn: 'Durable industrial LED floodlights and bay luminaires for warehouses, ports, and hazardous locations.',
-    image: '/src/assets/images/img_highbay_lighting_1794335865843.jpg',
+    image: '/images/img_highbay_lighting_1794335865843.jpg',
     inStock: true,
     standards: ['IEC 60598', 'ATEX Directive 2014/34/EU'],
     unit: 'قطعة / Fixture'

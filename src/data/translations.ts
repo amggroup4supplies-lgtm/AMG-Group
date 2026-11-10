@@ -18,6 +18,7 @@ export const content = {
       industries: 'قطاعات الأعمال',
       calculator: 'حاسبة المهندس',
       about: 'عن المجموعة',
+      brands: 'الماركات المعتمدة',
       contact: 'تواصل معنا',
       requestQuote: 'طلب عرض سعر (RFQ)',
       cart: 'قائمة التسعير'
@@ -164,6 +165,7 @@ export const content = {
       industries: 'Industries',
       calculator: 'Engineering Tools',
       about: 'About Group',
+      brands: 'Brands',
       contact: 'Contact Us',
       requestQuote: 'Request Quote (RFQ)',
       cart: 'RFQ Cart'

@@ -109,7 +109,7 @@ export const IndustriesSection: React.FC<IndustriesSectionProps> = ({ lang }) =>
 
             <div className="lg:col-span-5 h-72 sm:h-96 lg:h-full relative min-h-[300px]">
               <img
-                src="/src/assets/images/facility_warehouse_logistics_1794334723225.jpg"
+                src="/images/facility_warehouse_logistics_1794334723225.jpg"
                 alt="AMG Group Central Logistics Warehouse"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
